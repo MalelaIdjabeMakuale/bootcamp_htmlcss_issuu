@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 1px;
+}
+
+.logoissuu {
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #808080;
+}
+
+.register {
+  position: absolute;
+  right: 0;
+  top: 20px
+}
+
+.cajarrss {
+  position: relative;
+  display: inline-block;
+}
+
+.cajagoogle {
+  position: relative;
+  background-color: #5086ed;
+  border: 1px solid #000000;
+  color: #ffffff;
+  text-decoration: none;
+  height: 40px;
+  width: 300px;
+  float: left;
+}
+.cajagoogle > img {
+  position: relative;
+  height: 90%;
+  display: inline-block;
+}
+.cajagoogle > a {
+  position: absolute;
+  right: 80px;
+  top: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.cajafacebook > img {
+  position: absolute;
+  height: 90%;
+  float: left;
+}
+
+.cajafacebook > a {
+  position: absolute;
+  right: 80px;
+  top: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cajafacebook {
+  position: relative;
+  background-color: #3b569c;
+  color: #ffffff;
+  border: 1px solid #000000;
+  text-decoration: none;
+  height: 40px;
+  width: 300px;
+  float: right;
+}
+
+#cajas {
+  width: 600px;
+  height: 30px;
+  border-width: 1px;
+  border-color: rgb(195, 193, 193);
+  border-style: solid;
+}
+
+.button {
+  border-radius: 25%;
+  width: 300px;
+  height: 80px;
+  border-style: dashed;
+  border-color: lightgray;
+  background-color: white;
+}
